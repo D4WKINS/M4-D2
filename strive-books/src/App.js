@@ -1,23 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MyNav from './components/MyNav'
 import MyJumbo from './components/MyJumbotron'
-import MyBooks from '.components/MyBooks'
 import MyFooter from './components/MyFooter'
+import LatestReleases from './components/LatestReleases'
+import './App.css'
 
 
 
-function App() {
+const App =() => {
   
   return (
     <>
-  <MyNav />
-  <MyJumbo />
-   
+      <MyNav />
+      <MyJumbo />
 
-        <MyBooks />
-    
-  <MyFooter />
-
+      <LatestReleases />
+      <MyFooter className='footer' />
   </>
 )
 }

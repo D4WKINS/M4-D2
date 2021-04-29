@@ -37,6 +37,12 @@
   }
 }
 
-.MyFooter{
+.Footer{
+  position:fixed;
+  padding:1.2em;
   max-height:250px;
+  bottom:0px;
+}
+.book-cover{
+  width: 33%;
 }

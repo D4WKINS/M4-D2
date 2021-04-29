@@ -1,7 +1,7 @@
 
 import {Navbar, Nav, NavDropdown, Form,FormControl, Button} from 'react-bootstrap'
-const MyNav = () => (
-    
+function MyNav() {
+    return (
     <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">Strive Book Depo</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -22,9 +22,8 @@ const MyNav = () => (
       <Button variant="outline-success">Search</Button>
     </Form>
   </Navbar.Collapse>
-</Navbar>
-        
-)
-
+</Navbar>     
+    )
+}
 
 export default MyNav
