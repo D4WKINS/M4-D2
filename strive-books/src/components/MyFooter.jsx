@@ -3,9 +3,9 @@ import {Container, Row , Col} from 'react-bootstrap'
 
 const MyFooter = () =>{
   return  (
-<Container fluid="xs" className='text-center bg-success'>
+<Container fluid="xs" className='Footer text-center bg-dark'>
   <Row>
-    <Col>1 of 1</Col>
+    <Col>My Footer</Col>
   </Row>
 </Container>
     )

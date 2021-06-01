@@ -13,10 +13,9 @@ const App =() => {
     <>
       <MyNav />
       <MyJumbo />
-
       <LatestReleases />
       <MyFooter className='footer' />
-  </>
+    </>
 )
 }
 export default App;
