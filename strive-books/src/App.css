@@ -45,4 +45,13 @@
 }
 .book-cover{
   width: 33%;
+  height:50%;
+}
+
+#comment-area{
+  position:fixed;
+  top:50%;
+  left:50%;
+  width:50vw;
+  height:50vh;
 }
